@@ -1,0 +1,83 @@
+* {
+    box-sizing: border-box;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-image: url(background.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+/* Nav Bar */
+
+.nav li {
+    display: inline;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+}
+
+.nav a, nav p {
+    text-shadow: .5px .5px 2px white;
+}
+
+
+.nav a {
+    color:  orangered;
+    text-decoration: none;
+    padding: 0 10px;
+    transition: background-color .5s;
+    display: inline-block;
+    position: relative;
+    top: 3px;
+}
+
+.nav a:hover {
+    background-color: rgb(251, 255, 0);
+}
+
+
+nav p {
+    color:orangered;
+    position: fixed;
+    left: 40px;
+    top: 3px;
+    margin: 0;
+    font-size: 20px;
+    clear: left;
+}
+
+.logo {
+    position: fixed;
+    left: 5px;
+    top: 1px;
+    width: 28px;
+    height: 28px;
+    border-radius: 0px;
+    float: left;
+}
+
+.nav{
+    position: fixed;
+    top: 0;
+    left: 180px;
+    margin: 0 auto;
+}
+
+nav {
+    background-image: url(./images/craziness.jpg);
+    background-repeat: space;
+    background-attachment: fixed;
+    background-size: 20% 20%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 31px;
+    margin: 0 auto;
+
+}
