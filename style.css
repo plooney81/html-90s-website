@@ -89,12 +89,20 @@ nav {
 
 }
 
+section {
+    position: relative;
+    top: 60px;
+}
+
+
 /* Header Section */
 
 header {
-    position: relative;
-    top: 60px;
     color:  rgb(242, 176, 232);
+}
+
+header p {
+    font-size: 25px;
 }
 
 h1 {
