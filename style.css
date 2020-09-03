@@ -26,12 +26,12 @@ body {
 }
 
 .nav a, nav p {
-    text-shadow: .5px .5px 2px white;
+    text-shadow: 1px 1px 1px rgb(0, 255, 0);
 }
 
 
 .nav a {
-    color:  orangered;
+    color:  rgb(251, 255, 0);
     text-decoration: none;
     padding: 0 10px;
     transition: background-color .5s;
@@ -41,12 +41,12 @@ body {
 }
 
 .nav a:hover {
-    background-color: rgb(251, 255, 0);
+    background-color:orangered;
 }
 
 
 nav p {
-    color:orangered;
+    color:rgb(251, 255, 0);
     position: fixed;
     left: 40px;
     top: 3px;
@@ -58,9 +58,9 @@ nav p {
 .logo {
     position: fixed;
     left: 5px;
-    top: 1px;
-    width: 28px;
-    height: 28px;
+    top: 2px;
+    width: 27px;
+    height: 27px;
     border-radius: 0px;
     float: left;
 }
@@ -73,16 +73,21 @@ nav p {
 }
 
 nav {
-    background-image: url(./images/craziness.jpg);
+    /* background-image: url(./images/craziness.jpg);
     background-repeat: space;
     background-attachment: fixed;
-    background-size: 20% 20%;
+    background-size: 10% 10%; */
+    background-color: rgb(191, 63, 172, 1);
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
     height: 31px;
     margin: 0 auto;
-    border: 2px solid orangered;
+    border: 2px solid rgb(0, 255, 0);
 
+}
+
+.container {
+    border: 2px solid rgb(0, 255, 0)
 }
