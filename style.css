@@ -93,6 +93,14 @@ nav {
 
 header {
     position: relative;
-    top: 40px;
+    top: 60px;
     color:  rgb(242, 176, 232);
+}
+
+h1 {
+    font-size: 40px;
+}
+
+.yellow {
+    color: rgb(251, 255, 0)
 }
