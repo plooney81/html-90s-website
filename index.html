@@ -7,30 +7,75 @@
     <meta name="description" content="A 90's styled website that is about all of my favorite 90's bands">
     <title>90's Style Website</title>
     <link rel="stylesheet" href="style.css">
+
+    
+    <!-- CSS only -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+    <!-- JS, Popper.js, and jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
     <link rel="shortcut icon" href="./images/favicon-16x16.png" type="image/x-icon">
     <link href="https://fonts.googleapis.com/css2?family=MuseoModerno:wght@500&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="nav-container">
-        <nav>
-            <a href="index.html"><img src="./images/pl-favicon-32x32.png" alt="PL favicon" class="logo"></a>
-            <p>90's Music</p>
-            <ul class="nav">
-                <li><a href="index.html" class="home">Home</a></li>
-                <li><a href="#">Bands</a></li>
-                <li><a href="#">Pictures</a></li>
-                <li><a href="#">Videos</a></li>
-                <li><a href="#">Music</a></li>
-            </ul>
-        </nav>
+    <div class="main-bar">
+        <ul class="nav justify-content-start">
+            <li class="nav-item">
+            <a class="nav-link active" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link" href="#">Bands</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Tickets</a>
+                </li>
+            <li class="nav-item">
+            <a class="nav-link" href="#">Pictures</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Videos</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Music</a>
+            </li>
+        </ul>
     </div>
     <section>
         <header>
             <h1><span class="yellow">B</span>r<span class="yellow">i</span>n<span class="yellow">g</span> 
                 I<span class="yellow">t</span><br>
                 <span class="yellow">B</span>a<span class="yellow">c</span>k</h1>
-            <p>Your favorite site for everything 90's music</p>
+            <p>Everything 90's Music</p>
         </header>
+        <article class="container mt-5 albums">
+            <div class="row mb-2">
+                <h3 class="col">Some of our Favorite 90's Bands</h2>
+            </div>
+            <div class="row justify-content-center">
+                <img src="./images/pj.jpg" alt="Pearl Jam 'TEN' album cover photo" class="col">
+                <img src="./images/sg.png" alt="Sound Garden 'Badmotorfinger' album cover photo" class="col">
+                <img class='col' src="./images/aic.jpeg" alt="Alice in chains 'Dirt' album cover">
+            </div>
+            <div class="row justify-content-between">
+                <div class="container">
+                    <div class="row">
+                        <img class='col' src="./images/sp.png" alt="Smashing pumpkins 'Zeitgeist' album cover photo">
+                        <img class='col' src="./images/ram.jpg" alt="Rage against the machine album cover photo">
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <img class='col' src="./images/Weezer_-_Green_Album.png" alt="Weezer 'Green' album cover">
+                <img class='col' src="./images/rhcp.jpg" alt="Red Hot Chili Peppers 'Californication' album cover photo">
+                <img class='col' src="./images/System_of_a_down.jpg" alt="System of a Down's self title album cover photo">
+            </div>
+        </article>
+        <article class="container mt-5">
+            
+        </article>
     </section>
+
 </body>
 </html>
