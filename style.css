@@ -96,3 +96,9 @@ h3 {
     top: 100px;
     right: 50px;
 }
+
+.spinny {
+    margin: 0 auto;
+    width: 100px;
+    height: auto;
+}
