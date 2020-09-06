@@ -68,7 +68,7 @@ h3 {
 /* .row {border: 1px solid red;} */
 .col {
     padding: 0;
-    margin: 0;
+    margin: 2px;
 }
 
 /* Free roaming pictures */
@@ -80,3 +80,19 @@ h3 {
 }
 .heartbeat {    width: 115px;
     height: auto;}
+
+.tool, .tool_2 {
+    width: 100px;
+    height: auto;
+    position: fixed;
+}
+
+.tool {
+    top: 100px;
+    left: 50px;
+}
+
+.tool_2 {
+    top: 100px;
+    right: 50px;
+}
