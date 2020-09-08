@@ -22,6 +22,9 @@ body {
 .main-bar {
     background-color: rgb(242, 176, 232);
     border: 2px solid rgb(251, 255, 0);
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
     
 }
 
@@ -73,12 +76,11 @@ h3 {
 
 /* Free roaming pictures */
 .couple-heartbeat {
-    position: fixed;
-    top: -35px;
-    right: 20px;
-    display: flex;
+    position: relative;
+    bottom: 25px;
 }
-.heartbeat {    width: 115px;
+
+.heartbeat {    width: 100px;
     height: auto;}
 
 .tool, .tool_2 {
